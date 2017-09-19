@@ -1,0 +1,47 @@
+
+body {
+  font-family: arial;
+  background: url("main.jpg");
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  border: none;
+  height: 800px;
+}
+h1{
+  text-align: center;
+}
+h2 {
+  margin: 5px 0;
+}
+#wrapper {
+  width: 600px;
+  margin: 0 auto;
+  background-color: rgba(145, 145, 145, 0.40);
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+input {
+  margin: 5px 10px;
+}
+button {
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px 0;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  border-bottom: 3px solid #333;
+}
+#submit {
+  background: rgba(145, 145, 145, 0.87);
+}
+#reset {
+  background: rgba(255, 31, 31, 0.94);
+}
+#answer {
+  border: 1px dashed #ccc;
+  background: #eee;
+  padding: 10px;
+}

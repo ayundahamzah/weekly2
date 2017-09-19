@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Holiday Questionaire</title>
+  <link href="quest.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div id="wrapper">
+  <h1>Where should you go for the holiday, this Year End?</h1>
+  <p>Take this questionnaire to find out!</p>
+  
+  <form id="quiz">
+    <!-- Question 1 -->
+    <h2>What environtment did you prefer?</h2>
+    <!-- Here are the choices for the first question. Each input tag must have the same name. For this question, the name is q1. -->
+    <!-- The value is which answer the choice corresponds to. -->
+    <label><input type="radio" name="q1" value="c1">
+      The hot sunny day
+    </label><br />
+    <label><input type="radio" name="q1" value="c2">
+      The soothing, cool breezy day
+    </label><br />
+    <label><input type="radio" name="q1" value="c3">
+      The full crowded YEAR END SALE shopping area
+    </label><br />
+
+
+    <!-- Question 2 -->
+    <h2>What is your ideal holiday activities?</h2>
+    <!-- Here are the choices for the second question. Notice how each input tag has the same name (q2), but a different name than the previous question. -->
+    <label><input type="radio" name="q2" value="c1">
+      Plays watersport, eat a cold ice cream
+    </label><br />
+    <label><input type="radio" name="q2" value="c2">
+      Surround a fireplace , chatting with families
+    </label><br />
+    <label><input type="radio" name="q2" value="c3">
+      Shopping, Socializing, Partying.
+    </label><br />
+
+    
+    <!-- Question 3 -->
+    <h2>What is your hobby?</h2>
+    <!-- Choices for the third question -->
+    <label><input type="radio" name="q3" value="c1">
+      Surfing
+    </label><br />
+    <label><input type="radio" name="q3" value="c2">
+      Hiking
+    </label><br />
+    <label><input type="radio" name="q3" value="c3">
+      Shopping
+    </label><br />
+
+    <!-- Question 4 -->
+    <h2>What is your favorite outfit?</h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q4" value="c1">
+      Flip-flop, tshirt, short
+    </label><br />
+    <label><input type="radio" name="q4" value="c2">
+      Trouser, sweater, jacket, beanie, boots
+    </label><br />
+    <label><input type="radio" name="q4" value="c3">
+      Shirt, chino, sneakers
+    </label><br />
+
+    
+    <button type="submit" id="submit">Submit</button>
+  </form>
+
+  
+  <div id="answer">Your Answer will show up here!</div>
+</div>
+
+<script src="quest.js"></script>
+</body>
+</html>
